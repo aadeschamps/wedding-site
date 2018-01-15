@@ -1,0 +1,27 @@
+.rsvp-image {
+  background: url('../images/wedding-park-final.jpg')
+}
+
+.cer-image {
+  background: url('../images/wedding-stairs-final.jpg')
+}
+
+.hotel-image {
+  background: url('../images/wedding-bench-final.jpg')
+}
+
+.reg-image {
+  background: url('../images/zola-bg-final.jpg');
+}
+
+.rec-image {
+  background: url('../images/milling-room-final.jpg');
+}
+
+#zola-text {
+  width: 65%;
+}
+
+#milling-logo {
+  width: 65%
+}

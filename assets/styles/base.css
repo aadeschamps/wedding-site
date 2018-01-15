@@ -1,0 +1,185 @@
+html {
+  font-size: 16px;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+}
+
+.flex-center {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.header {
+  height: 10vh;
+  width: 98%;
+  background-color: white;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-end;
+  margin: auto;
+}
+
+.header img {
+  height: 85%;
+}
+
+.gallery {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  height: 90vh;
+  width: 100%;
+}
+
+.image-1-2 {
+  height: 50%;
+  width: 100%;
+}
+
+.image-1-1 {
+  height: 100%;
+  widows: 100%;
+}
+
+.image-column {
+  width: 33.33%;
+  height: 100%;
+}
+
+.image-column:first-child {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+
+.image-column:last-child {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+
+.hotel-image .hover-content h1 {
+  color: white;
+  font-size: 0.8em;
+  margin-bottom: 1em;
+}
+
+.hotel-image img {
+  width: 100%;
+}
+
+.rec-image h1 {
+  font-size: 0.8em;
+  margin-bottom: 0.5em;
+}
+
+.gal-image {
+  font-family: 'Abril Fatface', serif;
+  font-size: 2.2em;
+  color: black;
+  background-size: cover;
+  background-position: center;
+}
+
+.hover-content {
+  opacity: 1;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+
+.hover-container {
+  width: 100%;
+  height: 100%;
+  position: relative;
+}
+
+.tint {
+  background-color: white;
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  z-index: 100;
+  opacity: 0;
+}
+
+.hover-content {
+  z-index: 101;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  opacity: 0;
+}
+
+
+.hover-container:hover .tint {
+  opacity: 0.5;
+}
+
+.hover-container:hover .hover-content {
+  opacity: 1;
+}
+
+.section {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+}
+
+.text-section .inner {
+  padding-bottom: 5%;
+  padding-top: 5%;
+  width: 70%;
+  height: 100%;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-family: 'Italiana', serif;
+}
+
+.where .skyline-break {
+  width: 20%;
+}
+
+.text-section h1, text-section h2 {
+  font-family: 'Abril Fatface', serif;
+}
+
+.text-section h1 {
+  font-size: 2.5em;
+  padding: 2%;
+}
+
+.text-section h2 {
+  text-decoration: underline;
+  font-size: 2em;
+}
+
+.text-section p {
+  font-size: 1.5em;
+}
+
+.inner-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 5% 0%;;
+  width: 100%;
+}
+
+.inner-section h2 {
+  margin-bottom: 4%;
+}
+
+.hotel.section, .footer {
+  background-color:	#181818;
+  color: white;
+}

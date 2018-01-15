@@ -1,0 +1,22 @@
+/* Tablet Portrait Size */
+@media only screen and (min-width : 690px) and (max-width : 1024px)  {
+  .header {
+    justify-content: center;
+  }
+
+  .image-column {
+    width: 50%;
+    height: 66%;
+  }
+
+  .image-column:last-child {
+    height: 34%;
+    width: 100%;
+    flex-direction: row;
+  }
+
+  .image-column:last-child .gal-image {
+    height: 100%;
+    width: 50%;
+  }
+}

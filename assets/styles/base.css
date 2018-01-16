@@ -75,7 +75,7 @@ html {
 }
 
 .hotel-image img {
-  width: 100%;
+  width: 60%;
 }
 
 .rec-image h1 {
@@ -92,10 +92,20 @@ html {
 }
 
 .hover-content {
+  height: 100%;
+  width: 100%;
   opacity: 1;
   display: flex;
   flex-direction: column;
+  align-items: center;
+  justify-content: center;
   flex-wrap: wrap;
+  z-index: 101;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  opacity: 0;
 }
 
 .hover-container {
@@ -110,15 +120,6 @@ html {
   height: 100%;
   width: 100%;
   z-index: 100;
-  opacity: 0;
-}
-
-.hover-content {
-  z-index: 101;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
   opacity: 0;
 }
 

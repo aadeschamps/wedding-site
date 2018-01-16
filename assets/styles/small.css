@@ -32,4 +32,12 @@
   .rsvp-image *, .cer-image * {
     font-size: 0.95em;
   }
+
+  .where.section .inner-section img {
+    width: 60%;
+  }
+
+  .to-dos.section .registry a {
+    width: 25%;
+  }
 }

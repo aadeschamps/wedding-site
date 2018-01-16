@@ -43,12 +43,13 @@ html {
 
 .image-1-1 {
   height: 100%;
-  widows: 100%;
+  width: 100%;
 }
 
 .image-column {
   width: 33.33%;
   height: 100%;
+  display: flex;
 }
 
 .image-column:first-child {
@@ -145,11 +146,12 @@ html {
   font-family: 'Italiana', serif;
 }
 
-.where .skyline-break {
+.section .skyline-break {
   width: 20%;
+  margin: 2% 0%;
 }
 
-.text-section h1, text-section h2 {
+.text-section h1 {
   font-family: 'Abril Fatface', serif;
 }
 
@@ -159,8 +161,7 @@ html {
 }
 
 .text-section h2 {
-  text-decoration: underline;
-  font-size: 2em;
+  font-size: 2.5em;
 }
 
 .text-section p {
@@ -173,13 +174,31 @@ html {
   align-items: center;
   margin: 5% 0%;;
   width: 100%;
+  text-align: center;
 }
 
 .inner-section h2 {
-  margin-bottom: 4%;
+  margin-bottom: 2%;
+}
+
+.where.section .inner-section img {
+  width: 40%;
 }
 
 .hotel.section, .footer {
   background-color:	#181818;
   color: white;
+}
+
+.to-dos.section .registry a {
+  margin-top: 1%;
+  width: 15%;
+}
+
+.to-dos.section .registry a img {
+  width: 100%;
+}
+
+.footer {
+  height: 5vh;
 }

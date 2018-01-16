@@ -135,8 +135,8 @@ html {
 }
 
 .text-section .inner {
-  padding-bottom: 5%;
-  padding-top: 5%;
+  padding-bottom: 3vh;
+  padding-top: 3vh;
   width: 70%;
   height: 100%;
   margin: auto;
@@ -148,7 +148,7 @@ html {
 
 .section .skyline-break {
   width: 20%;
-  margin: 2% 0%;
+  margin: 2vh 0;
 }
 
 .text-section h1 {
@@ -157,7 +157,7 @@ html {
 
 .text-section h1 {
   font-size: 2.5em;
-  padding: 2%;
+  padding: 1vh;
 }
 
 .text-section h2 {
@@ -172,13 +172,13 @@ html {
   display: flex;
   flex-direction: column;
   align-items: center;
-  margin: 5% 0%;;
+  margin: 5vh 0;;
   width: 100%;
   text-align: center;
 }
 
 .inner-section h2 {
-  margin-bottom: 2%;
+  margin-bottom: 2vh;
 }
 
 .where.section .inner-section img {

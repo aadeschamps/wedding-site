@@ -24,12 +24,12 @@ html {
   display: flex;
   flex-direction: row;
   align-items: center;
-  justify-content: flex-end;
+  justify-content: flex-start;
   margin: auto;
 }
 
 .header img {
-  height: 85%;
+  width: 40%;
 }
 
 .gallery {
@@ -198,7 +198,16 @@ html {
   color: white;
 }
 
+.rsvp a {
+  font-weight: bold;
+  color: black;
+}
+
 .hotel a:hover {
+  color: grey;
+}
+
+.rsvp a:hover {
   color: grey;
 }
 
